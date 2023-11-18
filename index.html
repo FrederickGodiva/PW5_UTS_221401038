@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Website Title -->
+    <title>InfoValo</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous" />
+
+    <!-- Animate On Scroll Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand text-light" href="./index.html">InfoValo</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light"
+                aria-current="page"
+                href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="./public/products.html"
+                >Products</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-light"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Find Out
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="./public/agents.html"
+                    >Agents</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./public/maps.html">Maps</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End of Navbar -->
+
+    <!-- Carousel -->
+    <div class="container carousel p-3">
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <!-- First Carousel Item -->
+          <div class="carousel-item active">
+            <img
+              src="./images/Loading Screen/loading_screen_1.png"
+              class="d-block w-100"
+              alt="Loading Screen 1" />
+          </div>
+          <!-- Second Carousel Item -->
+          <div class="carousel-item">
+            <img
+              src="./images/Loading Screen/loading_screen_2.jpg"
+              class="d-block w-100"
+              alt="Loading Screen 2" />
+          </div>
+          <!-- Third Carousel Item -->
+          <div class="carousel-item">
+            <img
+              src="./images/Loading Screen/loading_screen_3.webp"
+              class="d-block w-100"
+              alt="Loading Screen 3" />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- End of Carousel -->
+
+    <!-- About -->
+    <div class="container mt-5 p-3 about">
+      <!-- Title For About Section -->
+      <h1 class="text-center text-white" data-aos="fade-up">
+        Welcome to InfoValo!
+      </h1>
+      <!-- Additional Information For Title About Section -->
+      <p class="text-center text-white about-text" data-aos="fade-up">
+        About this website
+      </p>
+      <div class="container text-center text-white pt-3" id="about">
+        <div class="row">
+          <!-- Left Side -->
+          <div class="col-xl-6 col-lg-6 col-sm-12">
+            <p class="about-text" data-aos="fade-right">
+              <span class="web-name">InfoValo</span> is a multifunctional
+              website where you can access various information about Valorant,
+              ranging from details about skins, maps, and agents. With InfoValo,
+              you not only find information but also have the option to top up
+              Valorant points at affordable prices. In the future, there will be
+              numerous promotions in line with ongoing Valorant events.
+            </p>
+          </div>
+          <!-- Right Side -->
+          <div class="col-xl-6 col-lg-6 col-sm-12">
+            <p class="about-text" data-aos="fade-left">
+              Now, you can discover everything about Valorant on a single
+              website <span class="web-name">InfoValo</span>, your best website
+              for Valorant. If you want to top up your Valorant Point, just
+              click
+              <button type="button" class="btn btn-dark know-more-btn">
+                <a href="./public/products.html" class="text-white bold-text"
+                  >here</a
+                >
+              </button>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of About -->
+
+    <!-- FAQ -->
+    <div class="container mt-5 p-3">
+      <div class="container mt-5 p-3" data-aos="fade-down-right">
+        <h1 class="text-center text-white p-2">FAQ</h1>
+        <!-- Accordion -->
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button text-white bold-text"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseOne"
+                aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseOne">
+                How to top up?
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionPanelsStayOpenExample">
+              <div class="accordion-body small-text text-white">
+                You can top up
+                <button type="button" class="btn btn-dark know-more-btn">
+                  <a href="./public/products.html" class="text-white bold-text"
+                    >here</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed text-white bold-text"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseTwo"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseTwo">
+                Is there any coupon available?
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseTwo"
+              class="accordion-collapse collapse small-text">
+              <div
+                class="accordion-body small-text text-white"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionPanelsStayOpenExample">
+                Of course, you can check for the available coupon on our social
+                media.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed bold-text text-white"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseFour"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseFour">
+                How can we contact you?
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseFour"
+              class="accordion-collapse collapse">
+              <div class="accordion-body small-text text-white">
+                You can contact us from contact section that we made under the
+                website.
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End of Accordion -->
+      </div>
+    </div>
+    <!-- End of FAQ -->
+
+    <!-- Contact -->
+    <div class="container mt-5 p-3" data-aos="zoom-in">
+      <h1 class="text-center text-white">Information</h1>
+      <p class="text-center text-white contact-text">
+        These are additional informations about us
+      </p>
+      <div class="row g-5 py-5 row-cols-1 row-cols-lg-2">
+        <div class="feature col">
+          <h3 class="fs-2 text-white">Contact</h3>
+          <div class="d-flex align-items-baseline">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="white"
+              class="bi bi-envelope-open-fill mx-2"
+              viewBox="0 0 16 16">
+              <path
+                d="M8.941.435a2 2 0 0 0-1.882 0l-6 3.2A2 2 0 0 0 0 5.4v.314l6.709 3.932L8 8.928l1.291.718L16 5.714V5.4a2 2 0 0 0-1.059-1.765l-6-3.2ZM16 6.873l-5.693 3.337L16 13.372v-6.5Zm-.059 7.611L8 10.072.059 14.484A2 2 0 0 0 2 16h12a2 2 0 0 0 1.941-1.516ZM0 13.373l5.693-3.163L0 6.873v6.5Z" />
+            </svg>
+            <p class="contact-text">
+              <a
+                href="mailto:InfoValo@gmail.com"
+                target="_blank"
+                class="contact-link"
+                >InfoValo@gmail.com</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="feature col">
+          <h3 class="fs-2 text-white">Location</h3>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.0925876474575!2d98.6578703747766!3d3.5661615504481206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3031302750a7b3c3%3A0x281f29cf894a500b!2sUSU%2C%20Jl.%20Universitas%2C%20Padang%20Bulan%2C%20Kec.%20Medan%20Baru%2C%20Kota%20Medan%2C%20Sumatera%20Utara%2020155!5e0!3m2!1sen!2sid!4v1699789930222!5m2!1sen!2sid"
+            width="300"
+            height="150"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="d-flex justify-content-center align-items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="50"
+              height="50"
+              fill="white"
+              class="bi bi-geo-alt-fill"
+              viewBox="0 0 16 16">
+              <path
+                d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+            </svg>
+            <p class="contact-text text-white">
+              Gedung D Fasilkom-TI, Universitas Sumatera Utara, Jl. Alumni No.3,
+              Padang Bulan, Kec. Medan Baru, Kota Medan, Sumatera Utara 20155
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Contact -->
+
+    <!-- Footer -->
+    <footer class="py-3 my-4 border-top">
+      <p class="text-center text-white">
+        Created By
+        <a
+          href="https://github.com/FrederickGodiva"
+          target="_blank"
+          class="author-link"
+          >Frederick Godiva</a
+        >
+      </p>
+    </footer>
+    <!-- End of Footer -->
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+
+    <!-- Animate On Scroll (AOS) -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- Initialize the AOS -->
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- My Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
